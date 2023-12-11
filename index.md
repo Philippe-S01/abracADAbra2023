@@ -4,6 +4,7 @@ title: Wikispeedia for Cliché Analysis
 subtitle: Using data generated from Wikispeedia to analyze clichés about people from a country
 use-site-title: true
 ---
+
 Nowadays, clichés play a significant role in shaping our view of the world. For instance, when one considers France, there is a tendency to connect it with emblematic symbols such as Eiffel Tower, cheese, wine or even cigarettes. Similarly, when thinking about the sun, it’s common to associate it directly with certain countries, such as Costa Rica or Mexico. Whereas these associations accurately reflect reality is a matter of debate. Nevertheless, a question may arise: How do these clichés shape our processes of thought?
 
 Using the Wikispeedia dataset, our objective is to analyze the impact of clichés in our research process, with a primary emphasis on those associated with different countries. The dataset provides all the paths of the players, finished and unfinished, allowing us to establish whether they rely on common ideas or concepts to navigate through the pages. In this case, clichés manifest in the form of Wikipedia’s article or categories of these articles.
