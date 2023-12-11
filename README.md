@@ -1,3 +1,7 @@
+# abracADAbra2023
+
+The file to modify the main page is `index.md`. There is an example to generate html plots in `examples/html_plot.ipynb` and the corresponding html file is `assets/plot/sin.html`.
+
 # Beautiful Jekyll
 
 [![Gem Version](https://badge.fury.io/rb/beautiful-jekyll-theme.svg)](https://badge.fury.io/rb/beautiful-jekyll-theme)
