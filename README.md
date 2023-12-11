@@ -1,4 +1,4 @@
-# abracADAbra2023
+# [abracADAbra2023](https://philippe-s01.github.io/abracADAbra2023/)
 
 The file to modify the main page is `index.md`. There is an example to generate html plots in `examples/html_plot.ipynb` and the corresponding html file is `assets/plot/sin.html`.
 
