@@ -12,5 +12,8 @@ Using the Wikispeedia dataset, our objective is to analyze the impact of cliché
 In understanding real-world networks, it is crucial to recognize the specific way in which they are connected. Wikipedia, being a representative of a similar network, is made of hyperlinks that contains many short-range, and few long-range, connections. This specific semantic space is perceived by humans, and Wikispeedia, as a game, becomes particularly interesting in tackling the small world property. Through our exploration, we will specifically consider how our notion of clichés aids us in navigating through the hyperlinks.
 
 ----------------
+
 <iframe src="assets/plot/sin.html" width="750px" height="530px" frameborder="0" position="relative">Sine example</iframe> 
+
+
 ----------------
