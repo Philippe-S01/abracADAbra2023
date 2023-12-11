@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Wikispeedia for Cliché Analysis
-subtitle: Using data generated from Wikispeedia to analyze clichés about people from a country
+title: A world full of clichés
+subtitle: Using data extracted from Wikispeedia to analyze clichés around the world
 use-site-title: true
 ---
 
