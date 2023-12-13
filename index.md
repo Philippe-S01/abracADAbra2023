@@ -41,6 +41,7 @@ Same with ratings?</p>
 ----------------
 
 ## *But are there any clichés in the articles that are not hyperlinked?*
+
 ----------------
 
 <iframe src="assets/plot/sin.html" width="750px" height="530px" frameborder="0" position="relative">Sine example</iframe> 
