@@ -31,12 +31,12 @@ Furthermore, the articles within the top fifty targets articles feature less not
 
 What about clichés? Well, if we look at the example of the United-Kingdom, by finding a list of clichés through different methods such as data augmentation, we find that (??).
 
-<p style="color:blue"><em>Compare path length/difference of length with the shortest path of paths with clichés and without clichés?
+<p style="color:blue">Compare path length/difference of length with the shortest path of paths with clichés and without clichés?
 Same with ratings?
 
 <p style="color:blue">Compare the number of occurrences of countries/continent categories within paths with different target/starting categories?
 
-<p style="color:blue">Performance</em></p>
+<p style="color:blue">Performance</p>
 
 ----------------
 
