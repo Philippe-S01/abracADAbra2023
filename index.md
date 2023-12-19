@@ -11,36 +11,48 @@ Nowadays, clichés play a significant role in shaping our view of the world. For
 
 Using the Wikispeedia dataset, our objective is to analyze the impact of clichés in our research process, with a primary emphasis on those associated with different countries. The dataset provides all the paths of the players, finished and unfinished, allowing us to establish whether they rely on common ideas or concepts to navigate through the pages. In this case, clichés manifest in the form of Wikipedia’s article or categories of these articles.
 
-In understanding real-world networks, it is crucial to recognize the specific way in which they are connected. Wikipedia, being a representative of a similar network, is made of hyperlinks that contains many short-range, and few long-range, connections. This specific semantic space is perceived by humans, and Wikispeedia, as a game, becomes particularly interesting in tackling the small world property. Through our exploration, we will specifically consider how our notion of clichés aids us in navigating through the hyperlinks. One may wonder: **does clichés help us navigate through the game and increase our chance to win?**
+In understanding real-world networks, it is crucial to recognize the specific way in which they are connected. Wikipedia, being a representative of a similar network, is made of hyperlinks that contains many short-range, and few long-range, connections. This specific semantic space is perceived by humans, and Wikispeedia, as a game, becomes particularly interesting in tackling the small world property. Through our exploration, we will specifically consider how our notion of clichés aids us in navigating through the hyperlinks. One may wonder **if clichés help us navigate through the game.**
 
 ----------------
 
 ## *What do we have ?*
 
-The dataset is composed of many different articles and categories. Our analysis is based on clichés about countries, raising the question of their substantial representation in the dataset. The answer is yes: among the top fifty most visited articles, seventeen focus on countries or continents, indicating a recurrent theme within the dataset. We remark that the most visited article being the United States of America with more than 8000 occurences. 
+The dataset is composed of diverse articles and categories, forming the basis of analysis on clichés related to countries. This may raise the question of their substantial representation in the dataset. Indeed, among the top fifty most visited articles, eleven are centered around countries, highlighting a recurrent theme in the dataset. Notably, the United-States of America emerges as the most visited article with 8654 occurrences.
 
-<p style="color:blue"><em>(add an arrow above the ones that are countries/continents or plot them in a different color?)</em></p>
+Furthermore, the articles within the top fifty target articles feature less notable presence of countries or continents. But then, one may wonder why countries are such a prevalent theme within the paths. (??)
 
-Furthermore, the articles within the top fifty targets articles feature less notable presence of countries or continent. But then, one may wonder why countries are such a prevalent theme within the paths. (??)
-
-<p style="color:blue"><em>(add an arrow above the ones that are countries/continents or plot them in a different color?)</em></p>
+<!-- <p style="color:blue"><em>(add an arrow above the ones that are countries/continents or plot them in a different color?)</em></p> -->
 
 ----------------
 
-## *What about clichés ?*
+## *What is a cliché and how can we find them?*
 
-What about clichés? Well, if we look at the example of the United-Kingdom, by finding a list of clichés through different methods such as data augmentation, we find that (??).
+In this context, when we refer to clichés, we are addressing stereotypes – commonly held ideas and concepts that rapidly come to mind when thinking about a particular subject.
 
-<p style="color:blue">Compare path length/difference of length with the shortest path of paths with clichés and without clichés?
-Same with ratings?
-
-<p style="color:blue">Compare the number of occurrences of countries/continent categories within paths with different target/starting categories?
-
-<p style="color:blue">Performance</p>
+Various approaches were considered to establish clichés associated with a specific country. Initially, manual selection was contemplated, but this posed a risk of significant bias as it relied solely on the perspectives of five individuals. An alternative method involved using artificial intelligence, such as Chat-GPT, to generate clichés associated with a particular nationality. The last option explored data augmentation – a different data set was used to link clichés with articles and/or categories. This process involved text analysis and particularly topic detection. 
 
 ----------------
 
-## *But are there any clichés in the articles that are not hyperlinked?*
+## *Is there any abnormal result that could be analyzed in the scope of our subject?*
+
+Before diving more into the analysis of the impact of clichés on our data, let’s see if there is any particularity in the data that could be explored through the point of view of the clichés. For this, the distribution of the length and the duration of the path have been observed and both measure present expected plots. The relationship between the length of the path and the rating given by the player followed an increasing linear relationship. 
+
+Everything seems “normal”.
+
+----------------
+
+## *But how can we explore them ?*
+
+Exploring clichés through different measures: Statistics and Categories
+The articles are defined, amongst other, by categories. It could be interesting to see how often categories from clichés occur in the path containing our subject of interest: United_Kingdom. Are some types of cliché articles more present than others? Do their categories match the ones from United_Kingdom or not at all? 
+The results are not very conclusive… Is it the end? ☹
+
+The analyses done previously did not show any result that could represent a sign of influence of the clichés on our way of playing the game. However, we believe that common thinking is usually led by predefined ideas of concept, here of a place: United_Kingdom. So why is it so?
+
+We asked ourselves the question and thought about it in greater depth. We raised three hypotheses:
+* The clichés do not really have an influence on the path
+* The data and the scope of the game do not allow us to find “significant results” as the paths are usually small and there is no hyperlink 
+* Our set of clichés is not great enough, so we use data augmentation
 
 
 <iframe src="assets/plot/sin.html" width="750px" height="530px" frameborder="0" position="relative">Sine example</iframe> 
