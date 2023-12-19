@@ -23,6 +23,10 @@ Furthermore, the articles within the top fifty target articles feature less nota
 
 <!-- <p style="color:blue"><em>(add an arrow above the ones that are countries/continents or plot them in a different color?)</em></p> -->
 
+<!-- add the plot top_50_visited_articles.html -->
+
+<iframe src="assets/plot/top_50_visited_articles.html" width="750px" height="530px" frameborder="0" position="relative">Top 50 visited articles</iframe>
+
 ----------------
 
 ## *What is a cliché and how can we find them?*
