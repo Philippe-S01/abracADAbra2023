@@ -215,7 +215,7 @@ In the following graph, we can see how each article relates to the United_Kingdo
 <p align="center">
 <figure>
   <img src="assets/plot/weighted_star_graph.svg" width="750px" height="530px" title="links graph">
-    <figcaption align="center">Common links between the articles and the United Kingdom</figcaption>
+    <figcaption style="text-align: center">Common links between the articles and the United Kingdom</figcaption>
 </figure>
 </p>
 
