@@ -109,6 +109,7 @@ In this scope, we looked at different ways to connect the articles and the refer
 <li>For the topics, we proceeded using Tokenization. This process allowed us to break the text into small chunks, words that we then categorised under different topics using packages such as nltk, spacy, empath and gensim. As these tokens can contain non-meaningful words such as “a”, “at”, etc. we decided to further filter them using stop words removal.
 
 This analysis did not give us any “good” results. In fact, our process of categorisation into different topics gave us fairly general genres that were found in most of the articles.
+<br>
 
 <br>
 <table>
@@ -143,6 +144,7 @@ However, given our level of knowledge of text analysis, we decided to turn to an
 To do this, we again used tokens, but in addition we used a natural language processing feature that allows us to assign each word its function in the sentence. 
 
 Note that this feature has a few limitations, particularly when it comes to common nouns, which end up as the subject and head of the sentence. This is probably due to the fact that this is a basic analysis. We will keep these limitations in mind for future analysis. Given the limitations, this result alone also did not give us satisfactory results.
+<br>
 
 <br>
 <table>
@@ -178,7 +180,7 @@ In the table above, we can see common proper nouns between five distinct article
 <li>Finally, we turned to a part of the data that we had not yet explored: hyperlinks. In fact, this is data that could enable us to take a more realistic approach to data augmentation. The game is based on moving from one article to another via hyperlinks. So whatever idea the player has in mind, they will inevitably be limited by the presence or absence of hyperlinks on a given article.
 
 To do this, we compared the number of hyperlinks between our article of interest and the articles in question. 
-
+<br>
 
 <br>
 <table>
@@ -203,16 +205,17 @@ To do this, we compared the number of hyperlinks between our article of interest
         <td style="text-align: right">4</td>
     </tr>
 </table>
+<br>
 
 This table, in contrast to the other two, seems to give results that are more consistent with what we would expect from clichés (in the context of our definition of this term). The more links there are in common, the more the article relates to the United Kingdom and the more likely it is to be considered a cliché.</li>
-<br></ol>
+</ol>
 
 In the following graph, we can see how each article relates to the United_Kingdom through the number of common links. The bigger the node, the more links they have in common. But your keen eye will have noticed that a lot of “big” nodes are actually countries: England, Scotland, the United States, Northern Ireland etc. and although perhaps closely related, including countries in our selection of clichés would disproportionately augment our data. Additionally, countries are arguably always related in some (thin perhaps) way but do not necessarily represent a cliché, e.g. Argentina. In this sense, we have decided to get rid of all articles selected in the clichés that were countries or geographical entities.
 
 <p align="center">
 <figure>
   <img src="assets/plot/weighted_star_graph.svg" width="750px" height="530px" title="links graph">
-    <figcaption>Common links between the articles and the United Kingdom</figcaption>
+    <figcaption align="center">Common links between the articles and the United Kingdom</figcaption>
 </figure>
 </p>
 
