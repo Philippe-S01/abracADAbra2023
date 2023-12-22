@@ -108,15 +108,17 @@ To do this, we compared the number of hyperlinks between our fairy tale article 
 <iframe src="assets/plot/random_common_links.html" width="750px" height="200px" frameborder="0" position="relative">Top 50 visited articles</iframe></li>
 </ol>
 
+| article_name   | common_links                                                                                                                                                                                                                          |   nbr_common_links |
+|:---------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------:|
+| Jesus          | ['English_language', 'Europe', 'British_Empire', 'Christianity', 'Islam', 'Judaism', 'Hinduism']                                                                                                                                      |                  7 |
+| Paul_McCartney | ['London', 'Elizabeth_II_of_the_United_Kingdom', 'Television', 'Ireland', 'The_Beatles', 'Republic_of_Ireland', 'Bertrand_Russell', 'William_Shakespeare', 'Northern_Ireland', 'Scotland', 'Germany', 'England', 'Buckingham_Palace'] |                 13 |
+| Mario          | ['Football_(soccer)', 'Television', 'English_language', 'Opera']                                                                                                                                                                      |                  4 |
+
+<p align="center">
+  <img src="assets/img/weighted_star_graph.svg" width="500" title="Tea">
+</p>
+
 … Right then, time for tea ! ☕
-
-<div align="center">
-
-| test | de | ouf |
-|------|----|-----|
-| 1    | 2  | 3   |
-
-</div>
 
 <p align="center">
   <img src="assets/img/tea.gif" width="500" title="Tea">
