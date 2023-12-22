@@ -701,7 +701,7 @@ nav.top-nav-short-permanent ~ header > .intro-header.big-img {
 }
 .page-subheading{
   color: red;
-  text-shadow: 1px 1px 5px #000;
+  text-shadow: 1px 1px 5px #FFF;
 }
 .intro-header .post-heading .post-subheading {
   margin-bottom: 1.25rem;
