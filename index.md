@@ -110,7 +110,7 @@ To do this, we compared the number of hyperlinks between our fairy tale article 
 
 … Right then, time for tea ! ☕
 
-<div align="center>
+<div align="center">
 
 | test | de | ouf |
 |------|----|-----|
