@@ -3,6 +3,9 @@ layout: page
 title: A world full of clichés
 subtitle: Using data extracted from Wikispeedia to analyze clichés around the world
 use-site-title: true
+cover-img: /assets/img/graph.png
+thumbnail-img: /assets/img/graph.png
+share-img: /assets/img/graph.png
 ---
 
 ----------------
