@@ -52,7 +52,12 @@ Various approaches were considered to establish clichés associated with a speci
 
 ## *Is there any abnormal result that could be analyzed in the scope of our subject?*
 
-Before diving more into the analysis of the impact of clichés on our data, let’s see if there is any particularity in the data that could be explored through the point of view of the clichés. For this, the distribution of the length and the duration of the path have been observed and both measure present expected plots. The relationship between the length of the path and the rating given by the player followed an increasing linear relationship. 
+Before diving more into the analysis of the impact of clichés on our data, let’s see if there is any particularity in the data that could be explored through the point of view of the clichés. For this, the distribution of the length and the duration of the path have been observed and both measure present expected plots. 
+
+<iframe src="assets/plot/Path_length_vs_duration.html" width="750px" height="530px" frameborder="0" position="relative">Top 50 visited articles</iframe>
+
+
+The relationship between the length of the path and the rating given by the player followed an increasing linear relationship. 
 
 <iframe src="assets/plot/length_difference_rating.html" width="750px" height="530px" frameborder="0" position="relative">Top 50 visited articles</iframe>
 
