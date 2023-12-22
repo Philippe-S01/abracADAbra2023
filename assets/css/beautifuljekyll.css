@@ -44,8 +44,6 @@ h1 {
 }
 h2 {
   font-size: 1.875rem;
-  color: #ffcccb;
-  text-shadow: 1px 1px 3px #000;
 }
 h3 {
   font-size: 1.5rem;
@@ -69,6 +67,10 @@ blockquote {
 }
 blockquote p:first-child {
   margin-top: 0;
+}
+hr {
+  color: #ffcccb;
+  text-shadow: 1px 1px 3px #000;
 }
 hr.small {
   max-width: 6.25rem;
