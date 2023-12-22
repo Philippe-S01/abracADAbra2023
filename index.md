@@ -27,6 +27,10 @@ Furthermore, the articles within the top fifty target articles feature less nota
 
 <iframe src="assets/plot/top_50_visited_articles.html" width="750px" height="530px" frameborder="0" position="relative">Top 50 visited articles</iframe>
 
+<!-- add the assest/img/HOMERRRRR.jpg -->
+
+![HOMERRRRR](assets/img/HOMERRRRR.jpg)
+
 ----------------
 
 ## *What is a cliché and how can we find them?*
@@ -40,6 +44,9 @@ Various approaches were considered to establish clichés associated with a speci
 ## *Is there any abnormal result that could be analyzed in the scope of our subject?*
 
 Before diving more into the analysis of the impact of clichés on our data, let’s see if there is any particularity in the data that could be explored through the point of view of the clichés. For this, the distribution of the length and the duration of the path have been observed and both measure present expected plots. The relationship between the length of the path and the rating given by the player followed an increasing linear relationship. 
+
+<iframe src="assets/plot/length_difference_rating.html" width="750px" height="530px" frameborder="0" position="relative">Top 50 visited articles</iframe>
+
 
 Everything seems “normal”.
 
@@ -58,8 +65,8 @@ We asked ourselves the question and thought about it in greater depth. We raised
 * The data and the scope of the game do not allow us to find “significant results” as the paths are usually small and there is no hyperlink 
 * Our set of clichés is not great enough, so we use data augmentation
 
-
-<iframe src="assets/plot/sin.html" width="750px" height="530px" frameborder="0" position="relative">Sine example</iframe> 
-
-
 ----------------
+
+… Right then, time for tea ! 
+
+![Tea](assets/img/tea.mp4)
