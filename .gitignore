@@ -11,3 +11,6 @@ ehthumbs.db
 Gemfile.lock
 
 beautiful-jekyll-theme-*.gem
+assets/plot/common_proper_nouns.md
+assets/plot/random_common_links.md
+assets/plot/random_common_topics.md
