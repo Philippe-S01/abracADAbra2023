@@ -94,11 +94,24 @@ In this scope, we looked at different ways to connect the articles and the refer
 This analysis did not give us any 'good' results. In fact, our process of categorisation into different topics gave us fairly general genres that were found in most of the articles. More in-depth text analysis and a more precise and detailed categorisation could perhaps have given us better results.
 However, given our level of knowledge of text analysis, we decided to turn to another way of approaching the text: proper nouns.</li>
 
-| article_name                                 | common_topics                                                                   |
-|:---------------------------------------------|:--------------------------------------------------------------------------------|
-| 12th_century                                 | {'money', 'wedding', 'royalty', 'dance', 'medieval', 'office', 'power', 'help'} |
-| Armand_Jean_du_Plessis%2C_Cardinal_Richelieu | {'money', 'wedding', 'royalty', 'dance', 'medieval', 'office', 'power', 'help'} |
-| Babylonia                                    | {'money', 'wedding', 'royalty', 'dance', 'medieval', 'office', 'power', 'help'} |
+<table>
+    <tr>
+        <th>article_name</th>
+        <th>common_topics</th>
+    </tr>
+    <tr>
+        <td>12th_century</td>
+        <td>{&#39;money&#39;, &#39;wedding&#39;, &#39;royalty&#39;, &#39;dance&#39;, &#39;medieval&#39;, &#39;office&#39;, &#39;power&#39;, &#39;help&#39;}</td>
+    </tr>
+    <tr>
+        <td>Armand_Jean_du_Plessis%2C_Cardinal_Richelieu</td>
+        <td>{&#39;money&#39;, &#39;wedding&#39;, &#39;royalty&#39;, &#39;dance&#39;, &#39;medieval&#39;, &#39;office&#39;, &#39;power&#39;, &#39;help&#39;}</td>
+    </tr>
+    <tr>
+        <td>Babylonia</td>
+        <td>{&#39;money&#39;, &#39;wedding&#39;, &#39;royalty&#39;, &#39;dance&#39;, &#39;medieval&#39;, &#39;office&#39;, &#39;power&#39;, &#39;help&#39;}</td>
+    </tr>
+</table>
 
 <li>Indeed, proper nouns seemed to be a good alternative as they generally represent a good indication of the subjects covered in a text, whether they be names of countries, people, and so on.
 To do this, we again used tokens, but in addition we used a natural language processing feature that allows us to assign each word its function in the sentence. 
@@ -106,8 +119,8 @@ Note that this feature has a few limitations, particularly when it comes to comm
 
 <table>
     <tr>
-        <td>article_name</td>
-        <td>common_propnouns</td>
+        <th>article_name</th>
+        <th>common_propnouns</th>
     </tr>
     <tr>
         <td>United_Kingdom_national_football_team</td>
@@ -134,11 +147,28 @@ Note that this feature has a few limitations, particularly when it comes to comm
 <li>Finally, we turned to a part of the data that we had not yet explored: hyperlinks. In fact, this is data that could enable us to take a more realistic approach to data augmentation. The game is based on moving from one article to another via hyperlinks. So whatever idea the player has in mind, they will inevitably be limited by the presence or absence of hyperlinks on a given article. 
 To do this, we compared the number of hyperlinks between our fairy tale article and the articles in question. However, if we proceed in this way, we could penalize articles that are 'short' or do not include many hyperlinks. That's why we've decided to normalize the number of links: instead of using a whole number, we're working with the percentage of an article's links (in relation to its total number of hyperlinks) that are linked to our flagship article. </li></ol>
 
-| article_name   | common_links                                                                                                                                                                                                                          |   nbr_common_links |
-|:---------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------:|
-| Jesus          | ['English_language', 'Europe', 'British_Empire', 'Christianity', 'Islam', 'Judaism', 'Hinduism']                                                                                                                                      |                  7 |
-| Paul_McCartney | ['London', 'Elizabeth_II_of_the_United_Kingdom', 'Television', 'Ireland', 'The_Beatles', 'Republic_of_Ireland', 'Bertrand_Russell', 'William_Shakespeare', 'Northern_Ireland', 'Scotland', 'Germany', 'England', 'Buckingham_Palace'] |                 13 |
-| Mario          | ['Football_(soccer)', 'Television', 'English_language', 'Opera']                                                                                                                                                                      |                  4 |
+<table>
+    <tr>
+        <th>article_name</th>
+        <th>common_links</th>
+        <th>nbr_common_links</th>
+    </tr>
+    <tr>
+        <td>Jesus</td>
+        <td>[&#39;English_language&#39;, &#39;Europe&#39;, &#39;British_Empire&#39;, &#39;Christianity&#39;, &#39;Islam&#39;, &#39;Judaism&#39;, &#39;Hinduism&#39;]</td>
+        <td align="right">7</td>
+    </tr>
+    <tr>
+        <td>Paul_McCartney</td>
+        <td>[&#39;London&#39;, &#39;Elizabeth_II_of_the_United_Kingdom&#39;, &#39;Television&#39;, &#39;Ireland&#39;, &#39;The_Beatles&#39;, &#39;Republic_of_Ireland&#39;, &#39;Bertrand_Russell&#39;, &#39;William_Shakespeare&#39;, &#39;Northern_Ireland&#39;, &#39;Scotland&#39;, &#39;Germany&#39;, &#39;England&#39;, &#39;Buckingham_Palace&#39;]</td>
+        <td align="right">13</td>
+    </tr>
+    <tr>
+        <td>Mario</td>
+        <td>[&#39;Football_(soccer)&#39;, &#39;Television&#39;, &#39;English_language&#39;, &#39;Opera&#39;]</td>
+        <td align="right">4</td>
+    </tr>
+</table>
 
 <p align="center">
   <img src="assets/plot/weighted_star_graph.svg" width="750px" height="530px" title="Tea">
