@@ -113,7 +113,7 @@ Note that this feature has a few limitations, particularly when it comes to comm
 | British_Isles                         | {'Ireland', 'United', 'England', 'Kingdom', 'Scotland', 'British'}             |
 
 <li>Finally, we turned to a part of the data that we had not yet explored: hyperlinks. In fact, this is data that could enable us to take a more realistic approach to data augmentation. The game is based on moving from one article to another via hyperlinks. So whatever idea the player has in mind, they will inevitably be limited by the presence or absence of hyperlinks on a given article. 
-To do this, we compared the number of hyperlinks between our fairy tale article and the articles in question. However, if we proceed in this way, we could penalize articles that are 'short' or do not include many hyperlinks. That's why we've decided to normalize the number of links: instead of using a whole number, we're working with the percentage of an article's links (in relation to its total number of hyperlinks) that are linked to our flagship article. </li>
+To do this, we compared the number of hyperlinks between our fairy tale article and the articles in question. However, if we proceed in this way, we could penalize articles that are 'short' or do not include many hyperlinks. That's why we've decided to normalize the number of links: instead of using a whole number, we're working with the percentage of an article's links (in relation to its total number of hyperlinks) that are linked to our flagship article. </li></ol>
 
 | article_name   | common_links                                                                                                                                                                                                                          |   nbr_common_links |
 |:---------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------:|
@@ -122,7 +122,7 @@ To do this, we compared the number of hyperlinks between our fairy tale article 
 | Mario          | ['Football_(soccer)', 'Television', 'English_language', 'Opera']                                                                                                                                                                      |                  4 |
 
 <p align="center">
-  <img src="assets/plot/weighted_star_graph.svg" width="500" title="Tea">
+  <img src="assets/plot/weighted_star_graph.svg" width="750px" height="530px" title="Tea">
 </p>
 
 … Right then, time for tea ! ☕
