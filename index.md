@@ -29,7 +29,9 @@ Furthermore, the articles within the top fifty target articles feature less nota
 
 <!-- add the assest/img/HOMERRRRR.jpg -->
 
-![HOMERRRRR](assets/img/HOMERRRRR.jpg)
+<p align="center">
+  <img src="assets/img/HOMERRRRR.jpg" width="350" title="Homer Simpson">
+</p>
 
 ----------------
 
@@ -69,4 +71,6 @@ We asked ourselves the question and thought about it in greater depth. We raised
 
 … Right then, time for tea ! 
 
-![Tea](assets/img/tea.mp4)
+<p align="center">
+  <img src="assets/img/tea.gif" width="350" title="Tea">
+</p>
