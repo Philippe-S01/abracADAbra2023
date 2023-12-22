@@ -110,13 +110,13 @@ To do this, we compared the number of hyperlinks between our fairy tale article 
 
 … Right then, time for tea ! ☕
 
-<center>
+<div align="center>
 
 | test | de | ouf |
 |------|----|-----|
 | 1    | 2  | 3   |
 
-</center>
+</div>
 
 <p align="center">
   <img src="assets/img/tea.gif" width="500" title="Tea">
