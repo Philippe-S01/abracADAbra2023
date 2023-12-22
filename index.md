@@ -108,7 +108,11 @@ To do this, we compared the number of hyperlinks between our fairy tale article 
 <iframe src="assets/plot/random_common_links.html" width="750px" height="200px" frameborder="0" position="relative">Top 50 visited articles</iframe></li>
 </ol>
 
-… Right then, time for tea ! 
+… Right then, time for tea ! ☕
+
+| test | de | ouf |
+|------|----|-----|
+| 1    | 2  | 3   |
 
 <p align="center">
   <img src="assets/img/tea.gif" width="500" title="Tea">
