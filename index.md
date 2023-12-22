@@ -174,7 +174,11 @@ To do this, we compared the number of hyperlinks between our fairy tale article 
         <td style="text-align: right">4</td>
     </tr>
 </table>
+<<<<<<< HEAD
 <br></ol>
+=======
+<br>
+>>>>>>> 4bc282925a30fed6e93c1362f2af5d69d3ff4ddf
 
 <p align="center">
   <img src="assets/plot/weighted_star_graph.svg" width="750px" height="530px" title="Tea">
