@@ -700,6 +700,7 @@ nav.top-nav-short-permanent ~ header > .intro-header.big-img {
   margin: 0.625rem 0 0;
 }
 .page-subheading{
+  font-size: 1.85rem;
   color: red;
   text-shadow: 1px 1px 5px #000;
 }
