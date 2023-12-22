@@ -699,6 +699,10 @@ nav.top-nav-short-permanent ~ header > .intro-header.big-img {
   font-weight: 300;
   margin: 0.625rem 0 0;
 }
+.page-subheading{
+  color: red;
+  text-shadow: 1px 1px 5px #000;
+}
 .intro-header .post-heading .post-subheading {
   margin-bottom: 1.25rem;
 }
