@@ -22,13 +22,17 @@ In understanding real-world networks, it is crucial to recognize the specific wa
 
 The dataset is composed of diverse articles and categories, forming the basis of analysis on clichés related to countries. This may raise the question of their substantial representation in the dataset. Indeed, among the top fifty most visited articles, eleven are centered around countries, highlighting a recurrent theme in the dataset. Notably, the United-States of America emerges as the most visited article with 8654 occurrences.
 
+<!-- add the plot top_50_visited_articles.html -->
+
+<iframe src="assets/plot/top_50_visited_articles.html" width="750px" height="530px" frameborder="0" position="relative">Top 50 visited articles</iframe>
+
 Furthermore, the articles within the top fifty target articles feature less notable presence of countries or continents. But then, one may wonder why countries are such a prevalent theme within the paths. (??)
 
 <!-- <p style="color:blue"><em>(add an arrow above the ones that are countries/continents or plot them in a different color?)</em></p> -->
 
 <!-- add the plot top_50_visited_articles.html -->
 
-<iframe src="assets/plot/top_50_visited_articles.html" width="750px" height="530px" frameborder="0" position="relative">Top 50 visited articles</iframe>
+<iframe src="assets/plot/Percentage_Pos_UK_Path.html" width="750px" height="530px" frameborder="0" position="relative">Top 50 visited articles</iframe>
 
 <!-- add the assest/img/HOMERRRRR.jpg -->
 
@@ -84,12 +88,18 @@ In this scope, we looked at different ways to connect the articles and the refer
 This analysis did not give us any 'good' results. In fact, our process of categorisation into different topics gave us fairly general genres that were found in most of the articles. More in-depth text analysis and a more precise and detailed categorisation could perhaps have given us better results.
 However, given our level of knowledge of text analysis, we decided to turn to another way of approaching the text: proper nouns.
 
+<iframe src="assets/plot/random_common_topics.html" width="750px" height="530px" frameborder="0" position="relative">Top 50 visited articles</iframe>
+
 1. Indeed, proper nouns seemed to be a good alternative as they generally represent a good indication of the subjects covered in a text, whether they be names of countries, people, and so on.
 To do this, we again used tokens, but in addition we used a natural language processing feature that allows us to assign each word its function in the sentence. 
 Note that this feature has a few limitations, particularly when it comes to common nouns, which end up as the subject and head of the sentence. This is probably due to the fact that this is a basic analysis. We will keep these limitations in mind for future analyses. Given the limitations, this result alone also did not give us satisfactory results.
 
+<iframe src="assets/plot/common_proper_nouns.html" width="750px" height="530px" frameborder="0" position="relative">Top 50 visited articles</iframe>
+
 3. Finally, we turned to a part of the data that we had not yet explored: hyperlinks. In fact, this is data that could enable us to take a more realistic approach to data augmentation. The game is based on moving from one article to another via hyperlinks. So whatever idea the player has in mind, they will inevitably be limited by the presence or absence of hyperlinks on a given article. 
 To do this, we compared the number of hyperlinks between our fairy tale article and the articles in question. However, if we proceed in this way, we could penalize articles that are 'short' or do not include many hyperlinks. That's why we've decided to normalize the number of links: instead of using a whole number, we're working with the percentage of an article's links (in relation to its total number of hyperlinks) that are linked to our flagship article. 
+
+<iframe src="assets/plot/random_common_links.html" width="750px" height="530px" frameborder="0" position="relative">Top 50 visited articles</iframe>
 
 … Right then, time for tea ! 
 
